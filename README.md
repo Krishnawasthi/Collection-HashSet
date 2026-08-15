@@ -7,6 +7,8 @@
 
 <img width="788" height="318" alt="image" src="https://github.com/user-attachments/assets/2b249128-4fb9-4361-9424-82569c020479" />
 
+<img width="743" height="294" alt="image" src="https://github.com/user-attachments/assets/3cfa625c-a1e8-44bc-8e21-1fbe50acb981" />
+### It store data inside in the form of linkedList
 
 <img width="1017" height="410" alt="image" src="https://github.com/user-attachments/assets/a79178ce-0d10-4835-9a48-05cdcc5c9bd8" />
 
