@@ -23,39 +23,45 @@
 <img width="1114" height="393" alt="image" src="https://github.com/user-attachments/assets/829e6210-7f3c-4320-b431-2350fe75497f" />
 <img width="1101" height="481" alt="image" src="https://github.com/user-attachments/assets/e2b65b08-2fb4-41fc-bd86-cc65d49ecdc8" />
 ## this is checking that where it is exaclty stored in the set.
-╔══════════════════════════════════════════════════════╗
-║              BITWISE AND (&) IN HASHING              ║
-╠══════════════════════════════════════════════════════╣
-║ Rule:                                                 ║
-║ 1 & 1 = 1                                             ║
-║ 1 & 0 = 0                                             ║
-║ 0 & 1 = 0                                             ║
-║ 0 & 0 = 0                                             ║
-║                                                        
-║ Only when BOTH bits are 1 → result is 1              ║
-╠══════════════════════════════════════════════════════╣
-║ Example:                                             ║
-║                                                      ║
-║ 54321 = 1101 0100 0011 0001                        ║
-║     6 = 0000 0000 0000 0110                        ║
-║          -------------------                        ║
-║ &        0000 0000 0000 0000                        ║
-║                                                      ║
-║ Therefore:                                           ║
-║              54321 & 6 = 0                          ║
-╠══════════════════════════════════════════════════════╣
-║ Meaning:                                             ║
-║ Result = 0 → object goes to bucket/index 0          ║
-║                                                      ║
-║ HashMap example:                                     ║
-║ index = hash & (capacity - 1)                       ║
-║                                                      ║
-║ If capacity = 8:                                    ║
-║ index = 54321 & 7                                   ║
-║       = 1                                            ║
-╚══════════════════════════════════════════════════════╝
+### Bitwise AND (`&`)
 
-
-
-
-
+> **Rule:** `&` gives `1` only when **both bits are `1`**.
+>
+> ```text
+> 1 & 1 = 1
+> 1 & 0 = 0
+> 0 & 1 = 0
+> 0 & 0 = 0
+> ```
+>
+> **Example:**
+>
+> ```text
+> 54321 = 1101 0100 0011 0001
+>     6 = 0000 0000 0000 0110
+>         -------------------
+>  &      0000 0000 0000 0000
+> ```
+>
+> Therefore:
+>
+> ```text
+> 54321 & 6 = 0
+> ```
+>
+> So the result is **0 → 0th index/bucket**.
+>
+> **HashMap formula:**
+>
+> ```text
+> index = hash & (capacity - 1)
+> ```
+>
+> If capacity = `8`:
+>
+> ```text
+> index = 54321 & 7
+>       = 1
+> ```
+>
+> So the object goes to **index 1**.
