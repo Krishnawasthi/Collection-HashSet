@@ -1,12 +1,7 @@
 package com.collection.hashset.example;
 
-
-
-
 class Example1
 {
-	
-	
 	
 }
 
@@ -21,7 +16,7 @@ public class SecondExample {
 		System.out.println(s1.hashCode());  //99162322(same hashCode for same object)
 		System.out.println(s2.hashCode());  //99162322(same hashCode for same objects)
 		
-		System.out.println(s1.equals(s2)); //true
+		System.out.println(s1.equals(s2));  //true
 		
 		
 		
@@ -33,7 +28,7 @@ public class SecondExample {
 		System.out.println(obj1.hashCode()); //1867750575 hashCode for obj1 object
 		System.out.println(obj2.hashCode()); //2046562095 hashCode for obj2 object
 		
-		System.out.println(obj1.equals(obj2)); 
+		System.out.println(obj1.equals(obj2));  //false
 		
 	}
 
