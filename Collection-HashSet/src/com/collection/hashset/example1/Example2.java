@@ -11,10 +11,11 @@ public class Example2 {
 	
 	//calculate the hash code of the element
 	int hash = "BLR".hashCode();
-	
-	int bucket = hash & (16 - 1);
-	
+	int spreadHash = hash ^(hash >>> 16);
+	int bucket =spreadHash & (16 - 1);
+	System.out.println(hash);
    System.out.println(bucket);
+   System.out.println(spreadHash);
 	
 	set.add("HYD");
 	set.add("DEL");
