@@ -65,4 +65,5 @@
 > So the object goes to **index 1**.
 
 <img width="1101" height="481" alt="image" src="https://github.com/user-attachments/assets/e2b65b08-2fb4-41fc-bd86-cc65d49ecdc8" />
+## between java 7 or 8 they were doing spreadHash.
 ## this is checking that where it is exaclty stored in the set.
