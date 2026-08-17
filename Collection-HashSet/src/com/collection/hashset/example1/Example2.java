@@ -1,6 +1,7 @@
 package com.collection.hashset.example1;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Example2 {
 
@@ -14,8 +15,8 @@ public class Example2 {
 	int spreadHash = hash ^(hash >>> 16);
 	int bucket =spreadHash & (16 - 1);
 	System.out.println(hash);
-   System.out.println(bucket);
-   System.out.println(spreadHash);
+    System.out.println(bucket);
+    System.out.println(spreadHash);
 	
 	set.add("HYD");
 	set.add("DEL");
@@ -24,7 +25,14 @@ public class Example2 {
 	set.add("AHM");
 	set.add("CHE");
 	
-	System.out.println(set);
+	Iterator<String> itr = set.iterator();
+		
+		
+	while(itr.hasNext()) {
+			
+			System.out.println(itr.next());
+		
+	}
 	}
 
 }
