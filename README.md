@@ -68,3 +68,7 @@
 ## if they want to evenly distribute the HashCode.
 ## between java 7 or 8 they were doing spreadHash.
 ## this is checking that where it is exaclty stored in the set.
+
+<img width="866" height="375" alt="image" src="https://github.com/user-attachments/assets/0c6474fb-8fc6-4bcb-b2fd-5fdf36cc415b" />
+<img width="1027" height="382" alt="image" src="https://github.com/user-attachments/assets/fe7e930b-f155-4ff4-8f53-cfc28a3cd85c" />
+
