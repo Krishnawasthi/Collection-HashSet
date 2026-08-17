@@ -13,9 +13,10 @@ public class Example2 {
 	//calculate the hash code of the element
 	int hash = "BLR".hashCode();
 	int spreadHash = hash ^(hash >>> 16);
-	int bucket =spreadHash & (16 - 1);
-	System.out.println(hash);
-    System.out.println(bucket);
+	// bucket is index
+	int bucket = spreadHash & (16 - 1);
+	System.out.println(hash);                
+    System.out.println(bucket);  // in which index your element is.
     System.out.println(spreadHash);
 	
 	set.add("HYD");
@@ -25,9 +26,10 @@ public class Example2 {
 	set.add("AHM");
 	set.add("CHE");
 	
-	Iterator<String> itr = set.iterator();
+	Iterator<String> itr = set.iterator();         // Iterator → tells Java HOW to move through the Set
 		
-		
+		                                           //itr.hasNext()   Is there another element?
+	                                               //itr.next()   Give me the next element
 	while(itr.hasNext()) {
 			
 			System.out.println(itr.next());
