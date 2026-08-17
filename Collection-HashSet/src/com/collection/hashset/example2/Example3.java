@@ -13,10 +13,20 @@ public class Example3 {
 		cities.add("delhi");
 		cities.add("kanpur");
 		cities.add("lucknow");
+		cities.add("Lucknow");
 		
-		System.out.println("lucknow".hashCode());
+		int hash = "lucknow".hashCode();
+		
+		System.out.println(hash);
+		
+		
+	     int spreadhash = hash^(hash >>> 16);
+	     int index = spreadhash & (16-1);
+	     System.out.println("index of lucknow " + index);
 		
 
 	}
+
+	
 
 }
