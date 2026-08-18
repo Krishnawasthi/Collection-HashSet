@@ -16,13 +16,14 @@ public class Example3 {
 		cities.add("Lucknow");
 		
 		int hash = "lucknow".hashCode();
+		    hash = "delhi".hashCode();
 		
 		System.out.println(hash);
 		
 		
-	     int spreadhash = hash^(hash >>> 16);
+	     int spreadhash = hash^(hash >>> 16);  //an internal thing to distribute all the hash by JVM
 	     int index = spreadhash & (16-1);
-	     System.out.println("index of lucknow " + index);
+	     System.out.println("index is :  " + index);
 		
 
 	}
