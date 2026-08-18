@@ -2,31 +2,48 @@ package com.collection.hashset.example4.threashold;
 
 import java.util.HashSet;
 
+ class Employee 
+{
+	HashSet<String> prod = new HashSet<String>();
+  
+	 public void employee(){
+		 
+		 prod.add("krishna");
+		 prod.add("awasthi");
+		 prod.add("mohan");
+		 prod.add("kartik");
+		 
+		 System.out.println(prod);
+		 
+		 System.out.println("-------------------------------------------------------------------");
+	 }
+	
+}
+
+class EmployeeSeen extends Employee
+{ 
+	HashSet<String> prod = new HashSet<String>();
+	@Override
+	public void employee(){
+		 
+		 prod.add("rohan");
+		 prod.add("dixit");
+		 prod.add("mohan");
+		 prod.add("kartik");
+		 
+		 System.out.println(prod);
+	 }
+	
+}
+
 public class Example4 {
 
 	public static void main(String[] args) {
+
+		Employee es = new Employee();
+		es.employee();
 		
-		HashSet<String> prod =  new HashSet<String>();
-		
-		prod.add("FJWF");
-		prod.add("jvsdJ");
-		prod.add("kscs");
-		prod.add("wbff");
-		prod.add("sjkf");
-		prod.add("wfekb");
-		prod.add("fgfw");
-		prod.add("wfflw");
-		prod.add("fw");
-		prod.add("g2");
-		prod.add("wf");
-		prod.add("kd");
-		prod.add("ckjkf");
-		prod.add("lkna");
-		
-		
-		System.out.println(prod);
-		
-		
+
 	}
 
 }
