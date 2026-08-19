@@ -20,8 +20,6 @@ class ArmyPerson{
 		return 246636327;
 	}
 	
-	
-	
 }
 
 public class example7 {
