@@ -9,6 +9,9 @@
 ## In hashset every bucket have its own linkedlist.
 ## it is why becuase develpers know that collision will be occur.
 
+<img width="1131" height="349" alt="image" src="https://github.com/user-attachments/assets/e8bc51d1-5f81-4a8e-8129-561cb80562c6" />
+
+
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
 <img width="711" height="223" alt="image" src="https://github.com/user-attachments/assets/2235c2a7-264e-43e9-9667-b8abed59e1fd" />
