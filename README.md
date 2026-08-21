@@ -28,6 +28,8 @@
 ## If element is added and element is not there then it will be true and if element is there it is false.
 ### this will be used  during stream Api  implementation like you need to find some unique element or duplicate element and all.
 
+## rehashing is an expensive activity always try to avoid it.
+
 
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
