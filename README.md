@@ -29,7 +29,9 @@
 ### this will be used  during stream Api  implementation like you need to find some unique element or duplicate element and all.
 
 ## rehashing is an expensive activity always try to avoid it.
-
+## don't create hashset with default capacity otherwise will face the problem of rehashing in 
+## multiple time it will change the bucket of each element whenever rehashing will be perform.
+### HashSet <type> set = new HashSet<type>(1000); this is the right way to implement HashSet and ### prevent the rehashing.
 
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
