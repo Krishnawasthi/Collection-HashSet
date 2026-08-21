@@ -3,7 +3,11 @@
 
 ## bydefault capacity of hashset is 16.(it can store 16 element)
 ## Where the word hash is seen Everywhere hashing comes into the picture.
+
+<img width="596" height="185" alt="image" src="https://github.com/user-attachments/assets/68f5e772-7ac7-450f-9c91-42ddfb6e59b2" />
+
 ## In hashset every bucket have its own linkedlist.
+## it is why becuase develpers know that collision will be occur.
 
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
