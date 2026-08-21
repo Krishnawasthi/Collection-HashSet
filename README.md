@@ -23,7 +23,8 @@
 <img width="790" height="186" alt="image" src="https://github.com/user-attachments/assets/88065033-ff70-4535-a181-cfe5595d00bb" />
 
 
-<img width="911" height="159" alt="image" src="https://github.com/user-attachments/assets/db917f0c-df0e-47f6-96ae-82b8e8f71909" />
+<img width="703" height="149" alt="image" src="https://github.com/user-attachments/assets/6b0d0a62-1ec1-4645-8193-f5abf3a55f6d" />
+
 ## If element is added and element is not there then it will be true and if element is there it is false.
 ### this will be used  during stream Api  implementation like you need to find some unique element or duplicate element and all.
 
