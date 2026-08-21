@@ -20,6 +20,9 @@
 ### Here is spreadhash has as well this is another technique that is used when you want lesser number of collision . where you go a step ahead of hashcode and perforM 
 ### right shift on current hashcode on behalf of the capacity of hashset. SPREADHASH = HASHCODE & (HASHCODE >>> 16);
 
+<img width="790" height="186" alt="image" src="https://github.com/user-attachments/assets/88065033-ff70-4535-a181-cfe5595d00bb" />
+
+
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
 <img width="711" height="223" alt="image" src="https://github.com/user-attachments/assets/2235c2a7-264e-43e9-9667-b8abed59e1fd" />
