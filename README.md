@@ -2,7 +2,7 @@
 <img width="770" height="363" alt="image" src="https://github.com/user-attachments/assets/c6e02167-2430-4827-8605-ea1ded4096f9" />
 
 ## bydefault capacity of hashset is 16.(it can store 16 element)
-## Where the word hash is seen where hashing comes into the picture.
+## Where the word hash is seen Everywhere hashing comes into the picture.
 
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
