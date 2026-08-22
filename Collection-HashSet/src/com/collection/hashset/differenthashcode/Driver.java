@@ -11,6 +11,11 @@ public class Driver {
 		Employee e2 = new Employee("Mohan", 101);
 		Employee e3 = new Employee("Mohan", 101);
 		
+		
+		System.out.println("hashcode of e1" + e1.hashCode());
+		System.out.println("hashcode of e2" + e2.hashCode());
+		
+		System.out.println("hashcode of e3" + e3.hashCode());
 		set.add(e1);
 		set.add(e2);
 		set.add(e3);
