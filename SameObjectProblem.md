@@ -31,6 +31,9 @@
 # (Emplyoee, Student) or any primitive (int , double float ) , User (developer) need to maintain that contract by overriding the method hashcode(), equals() .
 # there is no object for Primitives like (int , float , double) that why wrapper classes are exists and we use Integer.hashCode(....) or Double.hashCode(...). to 
 # return the method or its value.
+# hashCode() belongs to Object, but primitive data types are not objects.
+# So when someone says “Object class is the main class for hashCode”, they are talking about objects, not primitives.
+ 
 
 
 ## follow code: com.collection.hashset.differenthashcode for more understanding.
