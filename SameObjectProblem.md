@@ -12,7 +12,9 @@
 ### now the object will share same hashCode but there will be collision because each object has the same attributes but it is not comparing the Attributes so it will make a linkedlist and store 3 different attributes. becuase it is not comparing value.
 
 <img width="785" height="397" alt="image" src="https://github.com/user-attachments/assets/be34e28d-ccc3-4339-a0fc-f38dbc14e053" />
+
 ### All the elements on the 9th bucket but sharing a linkedlist even when they have same attributes. 
 
-### scenerio2: 
+### scenerio2: now Override the equals() method from object class and making comparing the elements then it will store all the attributes of different objects at perticular index.
+
 
