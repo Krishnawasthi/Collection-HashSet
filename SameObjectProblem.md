@@ -10,3 +10,9 @@
 <img width="826" height="154" alt="image" src="https://github.com/user-attachments/assets/7c3ee2bc-4c5e-4062-b75f-213f1603d654" />
 
 ### now the object will share same hashCode but there will be collision because each object has the same attributes but it is not comparing the Attributes so it will make a linkedlist and store 3 different attributes. becuase it is not comparing value.
+
+<img width="785" height="397" alt="image" src="https://github.com/user-attachments/assets/be34e28d-ccc3-4339-a0fc-f38dbc14e053" />
+### All the elements on the 9th bucket but sharing a linkedlist even when they have same attributes. 
+
+### scenerio2: 
+
