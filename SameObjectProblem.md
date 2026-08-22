@@ -17,4 +17,8 @@
 
 ### scenerio2: now Override the equals() method from object class and making comparing the elements then it will store all the attributes of different objects at perticular index.
 
+<img width="789" height="140" alt="image" src="https://github.com/user-attachments/assets/2a00535f-1b17-4914-b2a4-4d30b2c7d388" />
 
+<img width="936" height="207" alt="image" src="https://github.com/user-attachments/assets/fc706927-4304-49c9-8941-09bceb3f3fd2" />
+
+### now Attributes are at same bucket.  
