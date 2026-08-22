@@ -27,6 +27,10 @@
 
 ## All sharing same hashcode.
 
+# NOTE: For the String Object [ "krishna" , "krishna"] java manange the implicit hascode(because String is FINAL by itself), but the object type is Object 
+# (Emplyoee, Student) or any primitive (int , double float ) , User (developer) need to maintain that contract by overriding the method hashcode(), equals() .
+# there is no object for Primitives like (int , float , double) that why wrapper classes are exists and we use Integer.hashCode(....) or Double.hashCode(...). to 
+# return the method or its value.
 
 
 ## follow code: com.collection.hashset.differenthashcode for more understanding.
