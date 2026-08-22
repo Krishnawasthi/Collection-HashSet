@@ -33,6 +33,9 @@
 # return the method or its value.
 # hashCode() belongs to Object, but primitive data types are not objects.
 # So when someone says “Object class is the main class for hashCode”, they are talking about objects, not primitives.
+
+<img width="269" height="88" alt="image" src="https://github.com/user-attachments/assets/c5f4087a-b57f-4c7b-92b6-38ac2366f34b" />
+
  
 
 
