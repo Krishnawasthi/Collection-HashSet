@@ -36,7 +36,8 @@
 
 <img width="269" height="88" alt="image" src="https://github.com/user-attachments/assets/c5f4087a-b57f-4c7b-92b6-38ac2366f34b" />
 
- 
+ <img width="982" height="456" alt="image" src="https://github.com/user-attachments/assets/80bf1e7f-fc60-492f-9157-34954150f6cc" />
+
 
 
 ## follow code: com.collection.hashset.differenthashcode for more understanding.
