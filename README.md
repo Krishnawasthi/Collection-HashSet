@@ -20,6 +20,19 @@
 ### Here is spreadhash has as well this is another technique that is used when you want lesser number of collision . where you go a step ahead of hashcode and perforM 
 ### right shift on current hashcode on behalf of the capacity of hashset. SPREADHASH = HASHCODE & (HASHCODE >>> 16);
 
+<img width="790" height="186" alt="image" src="https://github.com/user-attachments/assets/88065033-ff70-4535-a181-cfe5595d00bb" />
+
+
+<img width="703" height="149" alt="image" src="https://github.com/user-attachments/assets/6b0d0a62-1ec1-4645-8193-f5abf3a55f6d" />
+
+## If element is added and element is not there then it will be true and if element is there it is false.
+### this will be used  during stream Api  implementation like you need to find some unique element or duplicate element and all.
+
+## rehashing is an expensive activity always try to avoid it.
+## don't create hashset with default capacity otherwise will face the problem of rehashing in 
+## multiple time it will change the bucket of each element whenever rehashing will be perform.
+### HashSet <type> set = new HashSet<type>(1000); this is the right way to implement HashSet and ### prevent the rehashing.
+
 <img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a2d6aefd-62d2-412c-886e-7a2bc5c0894b" />
 
 <img width="711" height="223" alt="image" src="https://github.com/user-attachments/assets/2235c2a7-264e-43e9-9667-b8abed59e1fd" />
