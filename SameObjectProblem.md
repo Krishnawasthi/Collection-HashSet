@@ -7,4 +7,6 @@
 ### three different object at three different memory location. each object has their own hashcode.
 
 ### scenerio2: When We override the hashCode() from Object class:  this will give same hashcode for each Object.
+<img width="826" height="154" alt="image" src="https://github.com/user-attachments/assets/7c3ee2bc-4c5e-4062-b75f-213f1603d654" />
 
+### now the object will share same hashCode but there will be collision because each object has the same attributes but it is not comparing the Attributes so it will make a linkedlist and store 3 different attributes. becuase it is not comparing value.
