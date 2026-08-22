@@ -23,4 +23,10 @@
 
 ### now Attributes are at same bucket.  
 
+<img width="712" height="126" alt="image" src="https://github.com/user-attachments/assets/e7248ed8-3cb2-4c32-8a5b-87fea9a1d4c1" />
+
+## All sharing same hashcode.
+
+
+
 ## follow code: com.collection.hashset.differenthashcode for more understanding.
