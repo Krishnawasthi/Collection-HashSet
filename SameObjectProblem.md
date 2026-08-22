@@ -26,6 +26,8 @@
 <img width="712" height="126" alt="image" src="https://github.com/user-attachments/assets/e7248ed8-3cb2-4c32-8a5b-87fea9a1d4c1" />
 
 ## All sharing same hashcode.
+<img width="750" height="129" alt="image" src="https://github.com/user-attachments/assets/3917864a-8bcb-4d83-8a3b-9891be630973" />
+## you can hardcode the hashcode as well.
 
 # NOTE: For the String Object [ "krishna" , "krishna"] java manange the implicit hascode(because String is FINAL by itself), but the object type is Object 
 # (Emplyoee, Student) or any primitive (int , double float ) , User (developer) need to maintain that contract by overriding the method hashcode(), equals() .
