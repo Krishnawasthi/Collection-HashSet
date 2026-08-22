@@ -22,3 +22,5 @@
 <img width="936" height="207" alt="image" src="https://github.com/user-attachments/assets/fc706927-4304-49c9-8941-09bceb3f3fd2" />
 
 ### now Attributes are at same bucket.  
+
+## follow code: com.collection.hashset.differenthashcode for more understanding.
