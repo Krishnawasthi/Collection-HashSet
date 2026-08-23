@@ -112,4 +112,4 @@
 
 ### Everything will be remain same the only thing will be added that is linkedlist over the hashSet all other things like threshold, hashcode all the thing will be remain same.
 <img width="949" height="335" alt="image" src="https://github.com/user-attachments/assets/24c8f6f9-4111-4549-a397-3e0a0ab8c9c3" />
-
+### they used doubly Linkedlist to maintain and keep a track on the order of insertion.
