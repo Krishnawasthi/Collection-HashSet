@@ -21,11 +21,11 @@ class EmployeeDatabse
 		
 	}
 	
-//	public boolean equals(Object obj)
-//	{
-//		EmployeeDatabse empData = (EmployeeDatabse) obj;
-//		return this.empName.equals(empData.empName) && this.salary == salary;
-	//}
+	public boolean equals(Object obj)
+	{
+		EmployeeDatabse empData = (EmployeeDatabse) obj;
+		return this.empName.equals(empData.empName) && this.salary == salary;
+	}
 	
 }
 
