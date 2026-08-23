@@ -108,5 +108,7 @@
 
 # LinkedHashset: 
 <img width="904" height="172" alt="image" src="https://github.com/user-attachments/assets/a51c6d77-7120-4a7b-9932-c4447feb2b71" />
+<img width="917" height="289" alt="image" src="https://github.com/user-attachments/assets/e659339b-f1dc-46ea-86af-720fb63aebc4" />
 
+### Everything will be remain same the only thing will be added that is linkedlist over the hashSet all other things like threshold, hashcode all the thing will be remain same.
 
