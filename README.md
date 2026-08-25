@@ -3,6 +3,10 @@
 
 ## bydefault capacity of hashset is 16.(it can store 16 element)
 ## Where the word hash is seen Everywhere hashing comes into the picture.
+## hashset used hashmap internally
+## Key concept : hashset has a constructor with no args, internally called Hashmap 
+## Hashset used set.add("add something"); and hashMap used map.put("put somthing")
+## but .add() method internally called .put() method to store value.
 
 <img width="596" height="185" alt="image" src="https://github.com/user-attachments/assets/68f5e772-7ac7-450f-9c91-42ddfb6e59b2" />
 
